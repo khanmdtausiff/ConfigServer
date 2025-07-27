@@ -1,2 +1,5 @@
-server:
-  port: 8085
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
